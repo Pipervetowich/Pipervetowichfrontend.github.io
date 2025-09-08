@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#colorBtn, #textBtn {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #4c65af;
+  color: white;
+}
+
+#hoverBox {
+  margin: 20px auto;
+  width: 250px;
+  height: 100px;
+  background-color: lightgray;
+  line-height: 100px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
