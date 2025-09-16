@@ -4,15 +4,15 @@ const container = document.getElementById("pokemon-container");
 
 // When button is clicked
 fetchBtn.addEventListener("click", async () => {
-  // Pick random Pokémon ID
+  
+  // Pick random Pokémon
   const randomId = Math.floor(Math.random() * 898) + 1;
   const url = `https://pokeapi.co/api/v2/pokemon/${randomId}`;
 
-  // Fetch data
   const response = await fetch(url);
   const data = await response.json();
 
-  // Create a card with Pokémon name + image
+  // Create a card with Pokémon name and image
   container.innerHTML = `
     <div class="pokemon-card">
       <h2>${data.name.toUpperCase()}</h2>
