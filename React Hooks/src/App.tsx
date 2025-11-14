@@ -18,7 +18,7 @@ function App() {
       <h1>ATLS 4630 React Hooks</h1>
       
       <div className="demo">
-        <h2>1. usePrevious Example</h2>
+        <h2>usePrevious Example</h2>
         
         <button className="btn-primary" onClick={() => setCount(count + 1)}>
           Increment
@@ -33,7 +33,7 @@ function App() {
       </div>
       
       <div className="demo">
-        <h2>2. useDebouncedState Example</h2>
+        <h2>useDebouncedState Example</h2>
 
         <input
           type="text"
@@ -47,7 +47,7 @@ function App() {
       </div>
       
       <div className="demo">
-        <h2>3. useTypewriter Example</h2>
+        <h2>useTypewriter Example</h2>
 
         <input
           type="text"
