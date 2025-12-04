@@ -3,15 +3,15 @@ import { Instagram, Mail, Heart, Star, Flower2, Sparkles } from 'lucide-react';
 import './App.css'
 
 export default function Portfolio() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(() => null);
 
   const projects = [
-    { title: "1", type: "1", size: "large" },
-    { title: "2", type: "2", size: "small" },
-    { title: "3", type: "3", size: "medium" },
-    { title: "4", type: "4", size: "medium" },
-    { title: "5", type: "5", size: "small" },
-    { title: "6", type: "6", size: "large" }
+    { title: "Capstone Project", type: "1Band Width the App", size: "large" },
+    { title: "Task Managing App", type: "A notes app made in my front end web development class", size: "small" },
+    { title: "Denver Zoo Website Redesign", type: "Redesigned the Denver Zoo website", size: "medium" },
+    { title: "Fish Tank", type: "A silly game made in Game Development", size: "medium" },
+    { title: "Project 5", type: "5", size: "small" },
+    { title: "Project 6", type: "6", size: "large" }
   ];
 
   return (
