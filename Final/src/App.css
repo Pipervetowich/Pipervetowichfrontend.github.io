@@ -246,7 +246,7 @@ body {
   animation: gentlePulse 3s ease-in-out infinite;
 }
 
-.marquee-wrapper {
+.line-wrapper {
   position: relative;
   z-index: 10;
   margin: 96px 0;

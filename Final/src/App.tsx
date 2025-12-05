@@ -70,7 +70,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      <div className="marquee-wrapper">
+      <div className="line-wrapper">
       </div>
 
       <section id="work" className="projects">
