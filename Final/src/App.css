@@ -255,12 +255,6 @@ body {
   overflow: hidden;
 }
 
-.marquee-content {
-  display: flex;
-  white-space: nowrap;
-  animation: marquee 20s linear infinite;
-}
-
 .projects {
   position: relative;
   z-index: 10;
